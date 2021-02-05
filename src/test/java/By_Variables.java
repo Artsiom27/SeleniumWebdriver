@@ -17,8 +17,8 @@ public class By_Variables {
         WebElement icon4 = driver.findElement(By.id("animated_mainmenu"));
         WebElement icon5 = driver.findElement(By.tagName("a"));
         WebElement icon6 = driver.findElement(By.name("lsgetframe"));
-        WebElement icon7 = driver.findElement(By.linkText("Каталог цен"));   // this i'm not sure
-        WebElement icon8 = driver.findElement(By.partialLinkText("Каталог"));  // this i'm not sure
+        WebElement icon7 = driver.findElement(By.linkText("Каталог цен"));
+        WebElement icon8 = driver.findElement(By.partialLinkText("Каталог"));
 
         driver.quit();
     }
